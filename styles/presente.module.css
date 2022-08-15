@@ -1,0 +1,39 @@
+.presente {
+    position: relative;
+   display: flex; 
+   width: 310px;
+   height: 360px;
+   color: crimson;
+   background-color: greenyellow;
+}.topo{
+
+        display: flex; 
+        width :310px;
+        height: 360px;
+        color: crimson;
+        background-color: yellow;  
+}
+.corpo{
+
+    display: flex; 
+    width :310px;
+    height: 360px;
+    color: crimson;
+    background-color: gold;  
+}
+.laco1{
+position: absolute;
+width: 180px;
+top: 40px;
+height: 200px;
+background-color: crimson;
+}
+.laco2{
+    display: flex;
+    right: 40px;
+    width: 420px;
+    top: 40px;
+    height: 200px;
+    background-color: crimson;  
+    align-items: center; 
+}

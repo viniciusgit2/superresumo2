@@ -1,0 +1,34 @@
+html,
+body {
+  padding: auto;
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: black;
+    color:red;
+}
+
+a {
+  color: inherit;
+  text-decoration: bisque;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+background-color: black;
+}
+:root{
+--area-porta-altura:390px;    
+--area-porta-largura:160px;
+align-items: center;
+display: flex;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+    background-color: black;
+  }
+
+}

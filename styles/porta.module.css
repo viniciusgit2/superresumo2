@@ -1,0 +1,19 @@
+.porta{
+    display:flex; 
+    width: (var(--area-porta-altura));
+    height: var(--area-porta-largura);
+    color: crimson;
+    background-color: greenyellow;
+    border-color: darkgoldenrod;
+    border: 5px solid;
+    align-items: center;
+    padding: 15px;
+}
+.numero{
+    font-size: 3rem;
+}
+.chao{
+ height: 100px;   
+ width: 100%;    
+ background-color: snow;
+}
