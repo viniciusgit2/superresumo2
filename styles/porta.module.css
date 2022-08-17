@@ -1,19 +1,47 @@
 .porta{
     display:flex; 
-    width: (var(--area-porta-altura));
-    height: var(--area-porta-largura);
+    width: 200px;
+    height: 200px;;
     color: crimson;
     background-color: greenyellow;
     border-color: darkgoldenrod;
     border: 5px solid;
     align-items: center;
     padding: 15px;
+    flex-direction: column;
+
+
 }
-.numero{
-    font-size: 3rem;
+
+.porta2{
+    
+    display:flex; 
+    width: 200px;
+    height: 200px;;
+    border: 5px solid;
+    align-items: center;
+    padding: 15px;
+    flex-direction: column;
+
 }
-.chao{
- height: 100px;   
- width: 100%;    
- background-color: snow;
+
+.maçaneta{
+   background-color: darkgreen; 
+   width: 24px;
+   height: 15px;
+align-self: flex-start;
+border-radius: 10px;
+
 }
+.cenario{
+    background-color: snow;
+    width: 20px;
+    height: 10px;
+}
+.selecionada{
+  background-color: yellow;  
+  border: 5px solid;
+  width: 10px;
+  height: 30px;
+}
+

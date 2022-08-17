@@ -1,20 +1,34 @@
 {
-  "name": "talveztenhaacertado",
-  "version": "0.1.0",
-  "private": true,
+  "name": "portaselecionada",
+  "version": "1.0.0",
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "next dev"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusgit2/superresumo2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viniciusgit2/superresumo2/issues"
+  },
+  "homepage": "https://github.com/viniciusgit2/superresumo2#readme",
   "dependencies": {
-    "next": "12.2.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "babel": "^6.23.0",
+    "css": "^3.0.0",
+    "next": "^12.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts": "^0.2.2",
+    "tsx": "^3.8.2",
+    "webpack": "^5.74.0"
   },
   "devDependencies": {
-    "eslint": "8.22.0",
-    "eslint-config-next": "12.2.5"
+    "@types/node": "^18.7.6",
+    "@types/react": "^18.0.17"
   }
 }
