@@ -12,14 +12,14 @@ export default function Porta ({ props }: { props: porta }){
   return(
   
   
-    <div className={styles["porta"]}>
-    <div className={styles["maçaneta"]}>
-    <div className={styles["porta2"]}>
-    
-    <div className={styles["cenario"]}>era pr ser neve em baixo</div>
-    </div>
-    </div>
-    </div>
+    <><div className={styles["porta"]} /><div {...claseeporta} {..."selecionada"}>>
+      <div className={styles["maçaneta"]}>
+        <div className={styles["porta2"]}>
+
+          <div className={styles["cenario"]}>era pr ser neve em baixo</div>
+        </div>
+      </div>
+    </div></>
     
  
     
