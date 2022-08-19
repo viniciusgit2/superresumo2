@@ -1,6 +1,6 @@
 export default class porta {
   static aberta(aberta: any): any {
-    throw new Error("Method not implemented.")
+   
   }
  this: any
   static alterarselecao: porta
