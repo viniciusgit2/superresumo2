@@ -1,18 +1,26 @@
-import styles from "../../styles/porta.module.css"
-import claseeporta from "../../model/classeporta"
 
-import React from "react"
+
+
+import classeporta from "../../model/classeporta"
+import styles from "../../styles/porta.module.css"
+
 interface porta {
-  porta:porta 
+  classeporta:porta 
+
 }
+const alterarselelecao=e=>onchange(classeporta.aberta())
 export default function Porta ({ props }: { props: porta }){
-  
+ 
+
+
+
+	
 
 
   return(
   
   
-    <><div className={styles["porta"]} /><div {...claseeporta} {..."selecionada"}>>
+    <><div className={styles["porta"]} /><div {...classeporta} onClick ="selecionada">{">"}
       <div className={styles["maçaneta"]}>
         <div className={styles["porta2"]}>
 
@@ -21,8 +29,7 @@ export default function Porta ({ props }: { props: porta }){
       </div>
     </div></>
     
- 
-    
+  
     )
-}
-
+  
+  }

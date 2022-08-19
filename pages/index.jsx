@@ -57,7 +57,7 @@ export default function Home() {
       </main>
 
     
-      <Porta classeporta={p1} />
+      <Porta value= {p1} onchange={novaporta => console.log(novaporta)}/>
     <Porta classeporta={p2}/>
 
 
